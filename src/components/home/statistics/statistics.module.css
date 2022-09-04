@@ -1,0 +1,114 @@
+.feature_container {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  /* display: flex; */
+}
+
+.feature_container .illustration_container {
+  /* width: 50%; */
+  /* border: 1px solid red; */
+}
+.feature_container .text_container {
+  /* width: 50%; */
+  /* border: 1px solid green; */
+}
+
+.feature_container:nth-of-type(odd) {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.feature_container:nth-of-type(odd) .illustration_container {
+  /* border: 1px solid red; */
+  width: 55%;
+}
+.feature_container:nth-of-type(odd) .text_container {
+  /* border: 1px solid red; */
+  width: 45%;
+}
+
+.feature_container:nth-of-type(3) .illustration_container {
+  width: 70%;
+  /* border: 3px solid white; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.feature_container:nth-of-type(even) {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  direction: rtl;
+  margin: 70px 0;
+  /* display: flex; */
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* flex-direction: column; */
+}
+
+.feature_container:nth-of-type(even) .text_container {
+  /* flex: 50%; */
+  /* border: 1px solid green; */
+  text-align: left;
+  padding-left: 90px;
+  padding-top: 80px;
+}
+
+/* .feature_container:nth-of-type(even) .text_container .title {
+  direction: ltr;
+  text-align: left;
+} */
+
+.feature_container:nth-of-type(even) .text_container .desc {
+  direction: ltr;
+  text-align: left;
+}
+
+.feature_container:nth-of-type(even) .illustration_container {
+  /* display: none; */
+  /* width: 50%; */
+  /* border: 1px solid white; */
+}
+
+.text_container {
+  /* max-width: 400px; */
+  /* border: 1px solid red; */
+  padding-right: 30px;
+}
+
+.feature_container:nth-of-type(1) .text_container {
+  padding-top: 70px;
+}
+
+.feature_container:nth-of-type(3) .text_container {
+  padding-top: 30px;
+}
+
+.title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+  max-width: 400px;
+  margin-right: auto;
+}
+
+.desc {
+  font-size: 16px;
+  color: #fff;
+  max-width: 400px;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+.cta {
+  background-color: #3671e9;
+  color: white;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 20px;
+}

@@ -15,6 +15,8 @@ module.exports = {
         lightGrayText: "#E0E0E0",
         darkGrayText: "#828282",
         darkNavyBlue: "#0D0D2B",
+        royalBlue: "#2B076E",
+        blueshade: "rgba(13, 13, 43, 0.7)",
       },
       maxWidth: {
         128: "1180px",

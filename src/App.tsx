@@ -2,6 +2,12 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 import { Header } from "./components/header/header";
+import { Hero } from "./components/home/hero/hero";
+import { WhyCrappo } from "./components/home/why-crappo/why-crappo";
+import { Trade } from "./components/home/trade/trade";
+import { Footer } from "./components/home/footer/foooter";
+import { Statistics } from "./components/home/statistics/statistics";
+import { Cta } from "./components/home/cta/cta";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -31,6 +37,12 @@ function App() {
     // </div>
     <div className="bg-darkNavyBlue">
       <Header />
+      <Hero />
+      <WhyCrappo />
+      <Trade />
+      <Statistics />
+      <Cta />
+      <Footer />
     </div>
   );
 }

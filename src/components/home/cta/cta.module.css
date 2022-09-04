@@ -1,0 +1,17 @@
+/* .cta {
+  background-image: linear-gradient(rgba(43, 7, 110, 1), rgba(13, 13, 43, 1));
+} */
+
+.input {
+  /* max-width: 400px; */
+  /* width: 100%; */
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid white;
+  background: none;
+  outline: none;
+}
+
+.input::placeholder {
+  color: white;
+}
