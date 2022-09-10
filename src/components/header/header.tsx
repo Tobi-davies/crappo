@@ -1,5 +1,5 @@
 import { media } from "../../mocks/media.mock";
-// import { FaBars } from 'react-icons/fa';
+import { FaBars } from "react-icons/fa";
 
 export const Header = () => {
   const { hero } = media;
@@ -27,8 +27,8 @@ export const Header = () => {
         </div>
 
         <div className="block lg:hidden">
-          <img src={hero.harmburger} alt="harmburger" />
-          {/* <FaBars /> */}
+          {/* <img src={hero.harmburger} alt="harmburger" /> */}
+          <FaBars className="text-white" />
         </div>
       </div>
     </div>
