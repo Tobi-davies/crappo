@@ -29,15 +29,36 @@ export const Statistics = () => {
         {statsData.map((item, i) => (
           <div key={i} className={styles.feature_container}>
             <div className={styles.text_container}>
-              <h3 className={styles.title}>{item.title}</h3>
-              <p className={styles.desc}>{item.description}</p>
-              <button className={styles.cta}>{item.cta}</button>
+              <h3
+                className={styles.title}
+                data-aos="fade-up"
+                data-aos-delay="550"
+              >
+                {item.title}
+              </h3>
+              <p
+                className={styles.desc}
+                data-aos="fade-up"
+                data-aos-delay="750"
+              >
+                {item.description}
+              </p>
+              <button
+                className={styles.cta}
+                data-aos="zoom-in"
+                data-aos-delay="1000"
+              >
+                {item.cta}
+              </button>
             </div>
 
             <div className={styles.illustration_container}>
               <img
                 src={item.image}
                 alt="statistics illustration"
+                data-aos="slide-right"
+                data-aos-duration="1000"
+
                 // width="150%"
               />
             </div>

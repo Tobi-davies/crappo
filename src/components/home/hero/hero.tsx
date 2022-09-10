@@ -64,11 +64,18 @@ export const Hero = () => {
       <div className="max-w-128 mx-auto px-10 pt-3 md:pt-12 flex flex-wrap ">
         <div className="w-full md:w-6/12 lg:w-4/12 flex flex-col md:flex-row items-center md:justify-start justify-center md:pr-10  mb-4 lg:mb-0 items-center">
           <div className="flex justify-center md:justify-start">
-            <img src={hero.icon_bars} width="70%" alt="bars" />
+            <img
+              src={hero.icon_bars}
+              width="70%"
+              alt="bars"
+              data-aos="fade-up"
+            />
           </div>
           <div className="flex flex-col text-center md:text-left">
-            <span className="text-white text-[30px]">$30B</span>
-            <span className="text-lightGrayText text-sm">
+            <span className="text-white text-[30px]" data-aos="fade-up">
+              $30B
+            </span>
+            <span className="text-lightGrayText text-sm" data-aos="fade-up">
               Digital Currency Exchanged
             </span>
           </div>
@@ -79,11 +86,18 @@ export const Hero = () => {
           // className="w-full md:w-6/12 lg:w-4/12 mb-4 lg:mb-0 flex flex-col md:flex-row text-center md:text-left gap-3 p-3 items-center md:items-start"
         >
           <div className="flex justify-center md:justify-start">
-            <img src={hero.icon_contact} width="70%" alt="bars" />
+            <img
+              src={hero.icon_contact}
+              width="70%"
+              alt="bars"
+              data-aos="fade-up"
+            />
           </div>
           <div className="flex flex-col text-center md:text-left">
-            <span className="text-white text-[30px]">10M+</span>
-            <span className="text-lightGrayText text-sm">
+            <span className="text-white text-[30px]" data-aos="fade-up">
+              10M+
+            </span>
+            <span className="text-lightGrayText text-sm" data-aos="fade-up">
               Trusted Wallets Investor
             </span>
           </div>
@@ -91,11 +105,18 @@ export const Hero = () => {
 
         <div className="w-full md:w-6/12 lg:w-4/12 flex flex-col md:flex-row md:mx-auto items-center justify-center  md:pr-10 items-center ">
           <div className="flex justify-center md:justify-start">
-            <img src={hero.icon_web} width="70%" alt="bars" />
+            <img
+              src={hero.icon_web}
+              width="70%"
+              alt="bars"
+              data-aos="fade-up"
+            />
           </div>
           <div className="flex flex-col text-center md:text-left">
-            <span className="text-white text-[30px]">195</span>
-            <span className="text-lightGrayText text-sm">
+            <span className="text-white text-[30px]" data-aos="fade-up">
+              195
+            </span>
+            <span className="text-lightGrayText text-sm" data-aos="fade-up">
               Countries Supported
             </span>
           </div>

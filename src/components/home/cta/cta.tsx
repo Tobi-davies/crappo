@@ -19,7 +19,7 @@ export const Cta = () => {
         // backgroundSize: "63%",
       }}
     >
-      <div className="max-w-[1180px] mx-auto px-10">
+      <div className="max-w-[1180px] mx-auto px-5 sm:px-10">
         <div
           className="px-8 py-12 bg-blue rounded-lg flex flex-col items-center text-center xl:text-start justify-center xl:justify-start xl:grid xl:grid-cols-2"
           style={{
