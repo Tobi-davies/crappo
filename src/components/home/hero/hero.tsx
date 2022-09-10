@@ -62,7 +62,7 @@ export const Hero = () => {
       </div>
 
       <div className="max-w-128 mx-auto px-10 pt-3 md:pt-12 flex flex-wrap ">
-        <div className="w-full md:w-6/12 lg:w-4/12 flex flex-col md:flex-row items-center md:justify-start justify-center md:pr-10  mb-4 lg:mb-0 items-center">
+        <div className="w-full md:w-6/12 lg:w-4/12 flex flex-col md:flex-row items-center md:justify-start justify-center md:pr-10  mb-6 lg:mb-0 items-center">
           <div className="flex justify-center md:justify-start">
             <img
               src={hero.icon_bars}
@@ -82,7 +82,7 @@ export const Hero = () => {
         </div>
 
         <div
-          className="w-full md:w-6/12 lg:w-4/12 flex flex-col md:flex-row items-center justify-center  md:pr-10 mb-4 lg:mb-0 items-center "
+          className="w-full md:w-6/12 lg:w-4/12 flex flex-col md:flex-row items-center justify-center  md:pr-10 mb-6 lg:mb-0 items-center "
           // className="w-full md:w-6/12 lg:w-4/12 mb-4 lg:mb-0 flex flex-col md:flex-row text-center md:text-left gap-3 p-3 items-center md:items-start"
         >
           <div className="flex justify-center md:justify-start">

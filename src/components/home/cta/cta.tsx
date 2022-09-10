@@ -35,8 +35,18 @@ export const Cta = () => {
           }}
         >
           <div className="text-white mb-4 xl:mb-0">
-            <h3 className="text-2xl font-bold mb-2">Start mining now</h3>
-            <p className="max-w-[310px] text-sm">
+            <h3
+              className="text-2xl font-bold mb-2"
+              data-aos="fade-up"
+              data-aos-delay="150"
+            >
+              Start mining now
+            </h3>
+            <p
+              className="max-w-[310px] text-sm"
+              data-aos="fade-up"
+              data-aos-delay="150"
+            >
               Join now with CRAPPO to get the latest news and start mining now
             </p>
           </div>

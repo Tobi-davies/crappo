@@ -13,7 +13,7 @@ export const WhyCrappo = () => {
           className="w-[500px] lg:w-[90%] mx-auto lg:mx-0"
           data-aos="zoom-in"
           data-aos-delay="800"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
         />
       </div>
       <div className="lg:w-1/2 pt-0 sm:pt-20">
