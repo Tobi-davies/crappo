@@ -1,15 +1,16 @@
 import { media } from "../../mocks/media.mock";
+// import { FaBars } from 'react-icons/fa';
 
 export const Header = () => {
   const { hero } = media;
   return (
     <div>
-      <div className="max-w-128 mx-auto px-10 flex justify-between items-center pt-6">
+      <div className="max-w-128 mx-auto px-5 sm:px-10 flex justify-between items-center pt-6">
         <div>
           <img src={hero.logo} alt="logo" />
         </div>
 
-        <div className="">
+        <div className="hidden lg:block">
           <nav className="flex items-center">
             <ul className="flex gap-x-10">
               <li className="text-white"> Products</li>
@@ -23,6 +24,11 @@ export const Header = () => {
               Register
             </button>
           </nav>
+        </div>
+
+        <div className="block lg:hidden">
+          <img src={hero.harmburger} alt="harmburger" />
+          {/* <FaBars /> */}
         </div>
       </div>
     </div>
