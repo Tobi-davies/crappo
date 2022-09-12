@@ -56,7 +56,7 @@ function App() {
       <Header />
       <Hero />
       <WhyCrappo />
-      {/* <Trade /> */}
+      <Trade />
       <Statistics />
       <Cta />
       <Footer />

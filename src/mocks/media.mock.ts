@@ -21,6 +21,8 @@ const hero = {
     "https://res.cloudinary.com/dgrebgb5n/image/upload/v1662150381/crappo/hero/block1_wprgj7.svg",
   block2:
     "https://res.cloudinary.com/dgrebgb5n/image/upload/v1662150381/crappo/hero/block2_axq8jh.svg",
+  big_arrow:
+    "https://res.cloudinary.com/dgrebgb5n/image/upload/v1663023426/crappo/hero/big-arrow_zimflr.svg",
 };
 
 const trade = {
