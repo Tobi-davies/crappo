@@ -7,7 +7,7 @@ export const Trade = () => {
   return (
     <>
       <div className="bg-darkNavyBlue">
-        <div className="pt-14 py-24 text-center mb-16 px-5">
+        <div className="pt-14 py-24 text-center mb-20 sm:mb-16 px-5">
           <h3 className="text-white mb-5 text-3xl font-bold">
             Check how much you can earn
           </h3>
@@ -56,7 +56,7 @@ export const Trade = () => {
         </div>
 
         <div className="max-w-128 mx-auto px-10 pb-16">
-          <h3 className="mb-5 md:mb-7 text-[25px] md:text-3xl font-bold text-darkNavyBlue max-w-[550px] mx-auto text-center pt-[180px] md:pt-[160px]">
+          <h3 className="mb-5 md:mb-7 text-[25px] md:text-3xl font-bold text-darkNavyBlue max-w-[550px] mx-auto text-center pt-[200px] md:pt-[160px]">
             Trade securely and market the high growth cryptocurrencies.
           </h3>
           <div className="flex flex-wrap lg:flex-nowrap  justify-center lg:justify-between  gap-6">
