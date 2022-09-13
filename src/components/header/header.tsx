@@ -28,7 +28,7 @@ export const Header = () => {
 
         <div className="block lg:hidden">
           {/* <img src={hero.harmburger} alt="harmburger" /> */}
-          <FaBars className="text-white text-[20px]" />
+          <FaBars className="text-white text-[25px]" />
         </div>
       </div>
     </div>
