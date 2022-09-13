@@ -19,8 +19,8 @@ export const Header = () => {
               <li className="text-white">Contact </li>
               <li className="text-white"> Login </li>
             </ul>
-            <div className="bg-[#F2F2F2] h-[14px] w-[1px] mx-7"></div>
-            <button className="bg-blue text-white rounded-2xl py-1 px-3">
+            <div className="bg-[#F2F2F2] opacity-30 h-[20px] w-[1px] mx-7"></div>
+            <button className="bg-blue text-white rounded-3xl py-2 px-5">
               Register
             </button>
           </nav>

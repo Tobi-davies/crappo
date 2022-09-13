@@ -19,7 +19,7 @@ export const Statistics = () => {
       }}
     >
       <div className="max-w-128 mx-auto px-5 sm:px-10 ">
-        <h3 className="text-white text-3xl font-bold max-w-[600px] text-center mx-auto mb-7 sm:mb-11 md:mb-16">
+        <h3 className="text-white text-[25px] md:text-3xl font-bold max-w-[600px] text-center mx-auto mb-7 sm:mb-11 md:mb-16">
           Market sentiments, portfolio, and run the infrastructure of your
           choice
         </h3>
